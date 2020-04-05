@@ -1,12 +1,11 @@
 import setuptools
-import dic_academic_api
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="dic_academic_api",
-    version=dic_academic_api.__version__,
+    version='0.0.1',
     author="drforse",
     author_email="george.lifeslice@gmail.com",
     description="A package for direct acessing to dic_academic api",
