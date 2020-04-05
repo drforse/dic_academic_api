@@ -3,7 +3,7 @@ Access to dic.academic.ru api
 
 installation: pip install -e git://github.com/drforse/dic_academic_api.git#egg=dic_academic_api
 
-uninstallation: pip uninstall dicttools
+uninstallation: pip uninstall dic_academic_api
 
 Example with instructions:
 
