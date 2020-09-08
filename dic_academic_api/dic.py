@@ -10,5 +10,5 @@ class Dic(DicAcademicBase):
         self.dic = dic
 
     def get_word_results(self, q: str, limit=20):
-        results = self.request(dic=self.dic, q=q, limit=20)
+        results = self.request(dic=self.dic, q=q, limit=limit)
         return [WordResult(result) for result in results]
